@@ -1,3 +1,13 @@
+"""scrape 
+This script is meant to help user grab rss link from html source of ytchannel.
+This file contains these functions:
+*getrss - returns the desired RSS 
+
+Usage:
+    Name = getrss(https://youtube.com/@ExampleChannel)
+    print(name)
+"""
+
 import math
 import urllib.request
 
